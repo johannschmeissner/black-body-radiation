@@ -5,15 +5,15 @@ According to the classical thermodynamics there are two famous approximation law
 
 The Rayleigh-Jeans approximation for the spectral radiance which is valid for lower frequencies or higher temperatures. It is expressed as:
 
-  f(𝜈,T) = (2*𝜈^2*k*T)/c^2
+  $f(\nu,T)=\frac{2\nu^2kT}{c^2}$
 
 ​Wien's approximation is valid for higher frequencies (𝜈) or lower temperatures (T). It is expressed as:
 
-  f(𝜈,T) = (2*h*𝜈^3/c^2)*exp(-h*𝜈/k*T)
+  $f(\nu,T)=\frac{2h\nu^3}{c^2}e^{-\frac{h\nu}{kT}}$
  
 The Planck's formula using solution for the quantum harmonic oscillator describes the Black-body radiation in a most accurate way. It is expressed as:
 
-  f(𝜈,T) = (2*h*𝜈^3/c^2)*(1/(exp(h*𝜈/k*T)-1))
+  $f(\nu,T)=\frac{2h\nu^3}{c^2}\frac{1}{e^{\frac{h\nu}{kT}}-1}$
 
 where 
 
@@ -27,7 +27,7 @@ The Stefan-Boltzmanns law describes the intensity of the thermal radiation emitt
 
 The radiant emittance R is directly proportional to the fourth power of the black body's temperature T as:
 
-R = σ*T^4
+   $R=\sigma\cdot T^4$
 
 where
 

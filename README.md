@@ -17,11 +17,11 @@ The Planck's formula using solution for the quantum harmonic oscillator describe
 
 where 
 
-      c - speed of light, 3*10^8 m/s
+$c$ - speed of light, $c=3\cdot 10^8$ $\frac{m}{s}$
 
-      h - planck constant, 6.626*10^-34 J*s
+$h$ - planck constant, $h=6.626\cdot 10^{-34}$ $J\cdot s$
 
-      k - Boltzmann constant, 1.28*10^-23 J/K
+$k$ - Boltzmann constant, $k=1.28\cdot 10^{-23}$ $\frac{J}{K}$
 
 The Stefan-Boltzmanns law describes the intensity of the thermal radiation emitted by matter in terms of that matter's temperature.
 
@@ -31,9 +31,9 @@ The radiant emittance R is directly proportional to the fourth power of the blac
 
 where
 
-      σ = 5.670*10^-8 W*m^-2*K^-4
+$\sigma=5.670\cdot 10^{-8}$ $W\cdot m^{-2}\cdot K^{-4}$
 
-Python program visualizes the Planck, Rayleigh-Jeans, and Wien formulas as functions of frequency and animates their behavior with a temperature slider
+Python program BLACK_BODY_RADIATION.py visualizes the Planck, Rayleigh-Jeans, and Wien formulas as functions of frequency and animates their behavior with a temperature slider
 
 It uses the following steps:
 
